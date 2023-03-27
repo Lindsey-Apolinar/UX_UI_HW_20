@@ -1,0 +1,246 @@
+body{
+    background-color: #fff5ed;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*header*/
+a {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+.inline-block{
+    display:inline-block;
+    vertical-align:top;
+}
+
+.inline-block-nav{
+    display:inline-block;
+    vertical-align:top;
+    width: 20%;
+    text-align: center;
+    margin-left: 4%;
+    margin-top: 2%;
+    color: #944c50;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.logo{
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+}
+nav{
+    width: 72%;
+    padding: 1%;
+}
+
+/*hero img*/
+
+.heroimg{
+    margin-top:2%;
+    margin-bottom: 1%;
+}
+
+p{
+    line-height: 1cm;
+}
+
+.image-center{
+   vertical-align: middle;
+   text-align: center;
+}
+
+.circle{
+    height:110px;
+    width: 110px;
+    background-color: #dfc1b8;
+    border-radius: 50%;
+    margin: 6px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 15px;
+}
+
+.circle p{
+    padding-top: 43px;
+    line-height: 1em;
+}
+
+/*main content*/
+.darker-background{
+    background-color: #F0E2D7;
+}
+
+h2{
+    padding-top: 40px; 
+    padding-bottom: 40px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.col-3 p{
+    text-align: center;
+    background-color:#dfc1b8;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 27%;
+    font-size: 35px;
+    line-height: 2.5em;
+    border-radius: 4%;
+    border-style: dotted;
+}
+
+.small-dotted-box-1{
+    background-color:#dfc1b8;
+    margin-bottom: 5%;
+    padding: 5%;
+    border-radius: 4%;
+    border-style: dotted;
+} 
+
+.small-dotted-box-2{
+    background-color:#dfc1b8;
+    margin-bottom: 5%;
+    padding: 4%;
+    padding-bottom: 0;
+    border-radius: 4%;
+    border-style: dotted;
+} 
+
+.image-center{
+    padding: 5%;
+}
+
+h4{
+    text-align:center;
+    text-decoration: underline;
+}
+
+.small-dotted-box{    /*come back to fix spacing*/
+    background-color:#dfc1b8;
+    margin-bottom: 5%;
+    border-radius: 4%;
+    border-style: dotted;
+
+}
+
+.inline-block-pic img{
+    margin:5%;
+}
+
+.inline-block-proto{
+    display: flex;
+}
+
+.inline-block-proto img{
+    margin-left: 2%;
+    margin-right:2%;
+    padding-bottom: 5%;
+}
+
+.ol{
+    margin-top:11%;
+}
+
+.style-tile{
+    margin-bottom: 5%;
+}
+
+.web-mobile-images img{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 2%;
+}
+
+.conclusion-inline-block{
+    display: inline-flex;
+}
+
+.conclusion-inline-block p{
+    background-color:#dfc1b8;
+    border-radius: 4%;
+    border-style: dotted;
+}
+
+.conclusion-1{
+    width: 70%;
+    padding: 5%;
+    margin-right:-150px;
+}
+
+.conclusion-2{
+    width: 90%;
+    padding:10%;
+    position:relative; right: 50px;
+}
+
+.conclusion-3{
+    width: 90%;
+    padding:12%;
+    position: relative;right: 5px;
+}
+
+/*footer section*/
+
+footer{
+    background-color: #dfc1b8;
+}
+
+.inline-block-footer-left{
+    display:inline-block;
+    vertical-align: middle;
+    background-color: #f1e2de;
+    margin: 2%;
+    padding: 3%;
+    font-family: 'Caveat Brush', cursive;
+    color:#dfc1b8
+}
+
+.inline-block-footer{
+    display:inline-block;
+    vertical-align:middle; 
+    text-align: center;
+    margin-left: 240px;
+    font-family: 'Caveat Brush', cursive;
+    color: #944c50;
+    line-height: 50px;
+}
+
+.email-buttons{
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    word-spacing: 1em;
+}
+
+button{
+    background-color: #944c50;
+    color:#dfc1b8;
+    border-radius: 5px;
+    width: 100px;
+    padding:5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.copyright{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+
+
+@media only screen and (max-width:600px) {
+    
+    .hamburger{
+        width: 35px;
+        height: 5px;
+        background-color:#944c50;
+        margin: 6px;
+        position: relative; left: 300px;
+    }
+
+    .inline-block-nav{
+        display: none;
+    }
+}

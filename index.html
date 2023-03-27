@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> UX/UI Homework 20 </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+    <header class="navigation">
+        <div class="inline-block logo">
+            <img src="https://lh5.googleusercontent.com/XnzOpuIsFgPItmytVKe4sgqCoExXesI0gJWtWzrAnGMvFvqhfi8t6LTlLKAPxBu-8D8=w2400" alt="logo">
+        </div>
+        <!-- bootstrap nav component -->
+        <nav class="inline-block">
+        <ul>
+            <li class="inline-block-nav">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="inline-block-nav">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="inline-block-nav">
+              <a class="nav-link" href="#">Resume</a>
+            </li>
+            <li class="inline-block-nav">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <div class="hamburger"></div>
+            <div class="hamburger"></div>
+            <div class="hamburger"></div>
+          </ul>
+        </nav>
+    </header>
+<!-- Hero Img -->
+    <section class="heroimg">
+        <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <h1>Nonprofit Website Redesign </h1>
+                <p>The National Alliance on Mental Illness (NAMI) website has an abundance of information and resources that needed to be organized in a way that is approachable to a variety of backgrounds of individuals. Our team goal was to develop a responsive web design to allow users to find resources and additional information to help them make their first steps in their mental health journeys.</p>
+                <a href="#research"><div class="circle"> <p>Research</p></div></a>  
+                <a href="#definition"><div class="circle"> <p>Definition</p> </div></a> 
+                <a href="#ideation"><div class="circle"> <p>Ideation</p> </div></a> 
+                <a href="#prototyping"><div class="circle"> <P>Prototyping <br> and Testing</p> </div></a> 
+                <a href="#conclusion"><div class="circle"> <p>Conclusion</p> </div></a> 
+              </div>
+              <div class="col-md-6">
+                <div class="image-center">
+                <img src="/Images/NAMI.png" height="425px"> 
+              </div>
+            </div>
+            </div>
+          </div>
+    </section>
+    
+    <main>
+      <!--Research-->
+      <div class="darker-background">
+        <h2 id="research">Research</h2>
+        <div class="container">
+         <p>As researchers, it’s important to understand who the website users are and get to know their thoughts and feelings on their website interaction experiences.  Research began with our team of 4 creating a proto persona and empathy map to kick start the new project. Next we conducted 5 user interviews, a survey in which 36 people completed, and a competitor analysis. The competitor analysis was broken down into two direct competitors (mental health nonprofits) and two indirect competitors (social media platforms).</p>
+          <div class="row">
+            <div class="col-9">
+             <img src="images/persona.png" alt="proto persona" height="625px">
+            </div>
+            <div class="col-3">
+              <p>KNOW<br>AND<br>UNDERSTAND<br>YOUR<br>USERS</p>
+            </div>
+          </div>
+          <div class="image-center">
+            <img src="images/empathy map.png" alt="empathy map" height="725px">
+          </div>
+          <p>After analyzing our notes we organized an affinity diagram. The common themes we extracted from our research were placed into categories where we could continue to further our knowledge about the typical user of the NAMI website. This was where Monroe Manchester was brought to life. Creating the user persona allowed us to visualize a realistic representation of a NAMI website user. Finally, before moving to the next phase we conducted a SWOT (Strengths, Weaknesses, Opportunities, and Threats) analysis to develop a plan for our future strategies and completed a heuristic evaluation on the original NAMI website.</p>
+          <div class="image-center">
+            <img src="images/affinity diagram.png" alt="affinity diagram" height="625px">
+          </div>
+          <div class="image-center">
+            <img src="images/user persona.png" alt="user persona" height="700px">
+          </div>
+          <div class="image-center">
+            <img src="images/swot.png" alt="swot" height="740px">
+          </div>
+        </div>
+      </div>
+
+    <!--Definition-->
+    <div class="container">
+      <h2 id="definition">Definition</h2>
+      <div class="row">
+        <div class="col-6 prob-statement"> 
+          <div class="small-dotted-box-1">
+          <h4>Problem Statement</h4>
+          <p>We believe renovating the NAMI website to a safe and welcoming place for individuals from a variety of backgrounds, will achieve allowing individuals to receive the appropriate support for their wants and needs.</p>
+        </div>
+      </div>
+        <div class="col-6 value-p">
+          <div class="small-dotted-box-2">
+          <h4>Value Proposition</h4>
+          <p>Our organization NAMI is developing an improved user experience to help individuals receive the appropriate care they need to decrease the stigma around looking for help. We’re better because we cover a broad spectrum of mental illnesses. We’re believable because everyone is welcome and accepted.</p>
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <!--Ideation-->
+    <div class="darker-background">
+      <div class="container">
+        <h2 id="ideation">Ideation</h2>
+        <p>We sorted the “I like, I Wish, What If” thoughts using a feature prioritization matrix. Next a story board was created keeping Monroe in mind. Then a site map was organized before moving on to prototyping and testing.</p>
+        <div class="inline-block-pic"> 
+          <img src="images/Feature Prioritization Matrix.png" alt="Feature Prioritization Matrix" height="500px">
+          <img src="images/site map.png" alt="site map" height="500px">
+        </div>
+        <div class="image-center">
+          <img src="/Images/storyboard.jpg" alt="storyboard" height="560px">
+        </div>
+      </div>
+    </div>
+
+<!--Prototyping and Testing-->
+    <div class="container">
+      <h2 id="prototyping"> Prototyping and Testing</h2>
+      <div class="inline-block-proto">
+        <img src="images/Main Page.png" alt="Main Page Prototype" height="550px">
+        <img src="images/Main Page 2.png" alt="Main Page Prototype with drop down nav" height="550px">
+        <img src="images/Main Page 3.png" alt="Secondary Page Prototype" height="550px">
+        <div class="ol">
+          <h5>Key Insights to Lo-Fi Testing</h5>
+          <li>Calendar is too long</li>
+          <li>Include "Family & Caregivers" under "Support & Education" tab</li>
+          <li>Self-Care Guide was easily accessible</li>
+        </div>
+      </div>
+      <div class="style-tile">
+        <img src="images/Style Tile.png" alt="Style Tile" height="380px">
+      </div>
+      <p>Further usability testing was conducted on 5 users on the hi-fidelity prototype to ensure we captured the perfect design based off of all of our findings. </p>
+      <div class="web-mobile-images">
+        <img src="images/Breathing Optional.png" alt="optional breathing modal window" height="640px">
+        <img src="images/Breathing Exercise.png" alt="breathing exercise modal window" height="640px">
+        <img src="images/Home.png" alt="Home Page" height="640px">
+      </div>
+      <div class="web-mobile-images">
+        <img src="images/phone 1.png" alt="Phone Main Page" height="650px">
+        <img src="images/phone 2.png" alt="Phone Main Page scrolled" height="650px">
+        <img src="images/phone 3.png" alt="Phone Main Page scrolled bottom" height="650px">
+      </div>
+    </div>
+
+<!--Conclusion-->
+<div class="darker-background">   
+  <div class="container">
+      <h2 id="conclusion">Conclusion</h2>
+      <p>We believe we were able to harness the thoughts and emotions of a NAMI website user and improve their experience when visiting the website. After two weeks of working on the project our time had come to an end, but listed below are future opportunities we are considering. </p>
+      <div class="conclusion-inline-block">
+        <div>
+          <p class="conclusion-1">Attempt another outreach to stakeholders to learn more about their website statistics and share our designs.</p>
+        </div>
+        <div>
+          <p class="conclusion-2">Redesign more secondary and tertiary pages using previous usability notes.</p>
+        </div>
+        <div>
+          <p class="conclusion-3">Possible iterations on calendar based off of attendance of events.</p>
+        </div>
+      </div>
+    </div>
+  </div> 
+
+
+    </main>
+
+    <footer>
+        <div class="inline-block-footer-left">
+            <h1>THANKS FOR <br>STOPPING BY </br></h1>
+        </div>
+        <div class="inline-block-footer">
+            <h1>LET'S CONNECT</h1>
+                <div class="email-buttons"> 
+                    <span>Apolinar.Lindsey@gmail.com</span>
+                    <button type="button">Resume</button>
+                    <button type="button">LinkedIn</button>
+                </div>
+            <p class="copyright">Copyright 2023 by Lindsey Apolinar</p>
+        </div>
+    </footer>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</html>
